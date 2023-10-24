@@ -347,7 +347,7 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #6E2F93;
+  color: #b255e9;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
@@ -358,7 +358,7 @@ h6 {
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #007bff;
+  color: #caddf4;
   text-decoration: none;
 }
 
@@ -1263,6 +1263,9 @@ h6 {
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
+  }
+  h3{
+    font-size: 15px;
   }
 }
 
