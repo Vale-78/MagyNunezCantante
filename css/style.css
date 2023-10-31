@@ -719,12 +719,20 @@ h6 {
   font-size: 24px;
 }
 
-/* Services Section //Videos familiares
+/* Services Section //Videos 
 --------------------------------*/
 
 #services {
   padding: 60px 0 40px 0;
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  background: rgba(19, 39, 57, 0.8);
+}
+#services .container {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(19, 39, 57, 0.8);
 }
 #services .container .videos-container{
   padding: 0;
@@ -772,14 +780,14 @@ h6 {
   line-height: 24px;
   margin-bottom: 0;
 }
-
 /* why-us section eliminada */
 /* Portfolio Section// imágenes familiares
 --------------------------------*/
 
 #portfolio {
   padding: 60px 0;
-  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  background: rgb(7 16 24 / 80%);
+  
 }
 
 #portfolio #portfolio-flters {
@@ -796,7 +804,7 @@ h6 {
   padding: 6px 20px;
   font-size: 12px;
   line-height: 20px;
-  color: #007bff;
+  color: #284564;
   border-radius: 50px;
   text-transform: uppercase;
   background: #ecf5ff;
@@ -921,19 +929,26 @@ h6 {
 #portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
 }
+#devoluciones {
+  padding: 60px 0;
+  background: rgb(7 16 24 / 80%);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
 
-/* Testimonials Section
---------------------------------*/
-
-
-/* Team Section //arbol familiar
---------------------------------*/
-
-
-
-/* Clients Section
---------------------------------*/
-
+#devoluciones .videos-container1{
+  max-width: 82%;
+  display: flex;
+  flex-direction: row;
+}
+#devoluciones .videos-container2{
+  max-width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: center;
+}
 
 /* Contact Section
 --------------------------------*/
@@ -1283,6 +1298,31 @@ h6 {
     width: 100%;
   }
   
+#services .title {
+  margin-left: 4px;
+  margin-right: 4px;
+  font-weight: 700;
+  margin-bottom: 13px;
+  font-size: 15px;
+  text-align: center;
+}
+#services iframe {
+  width:280px;
+  height: 157px;;
+}      
+#devoluciones .videos-container1 h4{
+  font-size: 1rem;
+}
+#devoluciones .videos-container1 div{
+  margin: 0 4% 0 4%;
+}
+#devoluciones .videos-container2 h4{
+font-size: 1rem;
+}
+#devoluciones .videos-container2 iframe{
+  width:280px;
+  height: 157px;;
+}     
 }
 
 @media (max-width: 574px) {
@@ -1319,5 +1359,35 @@ h6 {
   #team .member .social a:hover {
     color: #ccdff4;
   }
+  #services .title {
+    margin-left: 2px;
+    margin-right: 2px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 10px;
+    text-align: center;
+    color: #ffffff;
+  }
+  #services iframe {
+    width:186px;
+    height: 105px;
+  }   
+  #devoluciones .videos-container1{
+    max-width: 82%;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+    ;
+  }
+  #devoluciones .videos-container1 h4{
+      font-size: 0.5rem;
+  }
+  #devoluciones .videos-container2 h4{
+    font-size: 0.5rem;
+}
+  #devoluciones .videos-container2 iframe{
+    width:186px;
+    height: 105px;
+}
   
 }
