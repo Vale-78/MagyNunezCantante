@@ -722,26 +722,30 @@ h6 {
 /* Services Section //Videos 
 --------------------------------*/
 
-#services {
+#services,
+#compilados {
   padding: 60px 0 40px 0;
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   background: rgba(19, 39, 57, 0.8);
 }
-#services .container {
+#services .container,
+#compilados .container {
   padding: 0;
   display: flex;
   align-items: center;
   flex-direction: column;
   background: rgba(19, 39, 57, 0.8);
 }
-#services .container .videos-container{
+#services .container .videos-container
+#compilados .container .videos-container{
   padding: 0;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-#services .box {
+#services .box,
+#compilados .box {
   padding: 0px;
   position: relative;
   overflow: hidden;
@@ -752,29 +756,34 @@ h6 {
   transition: all 0.3s ease-in-out;
 }
 
-#services .box:hover {
+#services .box:hover,
+#compilados .box:hover {
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
 }
 
 
 
-#services .title {
+#services .title,
+#compilados .title{
   margin-left: 40px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-#services .title a {
+#services .title a,
+#compilados .title a{
   color: #111;
 }
 
-#services .box:hover .title a {
+#services .box:hover .title a,
+#compilados .box:hover .title a  {
   color: #007bff;
 }
 
-#services .description {
+#services .description,
+#compilados .description {
   font-size: 14px;
   margin-left: 40px;
   line-height: 24px;
@@ -1092,7 +1101,7 @@ h6 {
 
 #footer .footer-top {
   background: #004a99;
-  padding: 60px 0 30px 0;
+  padding: 15px 0 0 0;
 }
 
 #footer .footer-top .footer-info {
