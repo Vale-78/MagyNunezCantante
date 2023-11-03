@@ -577,15 +577,18 @@ h6 {
 
 #about {
   background: #2c244a;
-  padding: 60px 0;
+  padding: 6px 0 6px 0;
 }
-
-#about .about-container .background {
-  margin: 20px 0;
+#about .container .about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 0 6px 0;
 }
+#about .container .about-container img {
+  width: 50%;
+  height: auto;
 
-#about .about-container .content {
-  background: #fff;
 }
 
 #about .about-container .title {
@@ -594,14 +597,6 @@ h6 {
   font-size: 32px;
 }
 
-#about .about-container .icon-box {
-  background: #120c0c;
-  background-size: cover;
-  padding: 0 0 30px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 #about .about-container .icon-box .icon,
 #about .container-faceboock .icon-box .icon {
@@ -728,8 +723,7 @@ h6 {
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   background: rgba(19, 39, 57, 0.8);
 }
-#services .container,
-#compilados .container {
+#services .container {
   padding: 0;
   display: flex;
   align-items: center;
@@ -737,7 +731,7 @@ h6 {
   background: rgba(19, 39, 57, 0.8);
 }
 #services .container .videos-container
-#compilados .container .videos-container{
+#compilados .videos-container{
   padding: 0;
   display: flex;
   align-items: center;
@@ -1100,7 +1094,7 @@ h6 {
 }
 
 #footer .footer-top {
-  background: #004a99;
+  background: #445568;
   padding: 15px 0 0 0;
 }
 
@@ -1239,12 +1233,6 @@ h6 {
 # Responsive Media Queries
 --------------------------------------------------------------*/
 
-@media (min-width: 992px) {
-  #testimonials .testimonial-item p {
-    width: 80%;
-  }
-}
-
 @media (max-width: 991px) {
   #header {
     height: 82px;;
@@ -1276,12 +1264,6 @@ h6 {
   #why-us .card {
     margin: 0;
   }
-  #team .member h4 {
-    font-weight: 599;
-    margin-bottom: 1px;
-    font-size: 14px;
-    color: #fff;
-  }
 }
 
 @media (max-width: 768px) {
@@ -1307,7 +1289,8 @@ h6 {
     width: 100%;
   }
   
-#services .title {
+#services .title,
+#compilados .title {
   margin-left: 4px;
   margin-right: 4px;
   font-weight: 700;
@@ -1315,15 +1298,13 @@ h6 {
   font-size: 15px;
   text-align: center;
 }
-#services iframe {
+#services iframe ,
+#compilados .iframe{
   width:280px;
   height: 157px;;
 }      
 #devoluciones .videos-container1 h4{
   font-size: 1rem;
-}
-#devoluciones .videos-container1 div{
-  margin: 0 4% 0 4%;
 }
 #devoluciones .videos-container2 h4{
 font-size: 1rem;
@@ -1338,37 +1319,8 @@ font-size: 1rem;
   #intro {
     padding: 100px 0 20px 0;
   }
-  #team .member h4 {
-    font-weight: 700;
-    margin-bottom: 2px;
-    font-size: 25px;
-  }
-
-  #team .member span {
-    font-style: italic;
-    display: block;
-    font-size: 18px;
-    color: #8ee8ee;
-  }
-  
-  #team .member .social {
-    margin-top: 15px;
-  }
-  
-  #team .member .social a {
-    transition: none;
-    color: #8ee8ee;
-    font-size: 15px;
-  }
-  #team .member a {
-    transition: none;
-    color: #8ee8ee;
-    font-size: 18px;
-  }
-  #team .member .social a:hover {
-    color: #ccdff4;
-  }
-  #services .title {
+  #services .title,
+  #compilados .title {
     margin-left: 2px;
     margin-right: 2px;
     font-weight: 500;
@@ -1377,6 +1329,7 @@ font-size: 1rem;
     text-align: center;
     color: #ffffff;
   }
+  #compilados iframe,
   #services iframe {
     width:186px;
     height: 105px;
