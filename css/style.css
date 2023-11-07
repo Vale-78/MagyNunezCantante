@@ -1036,13 +1036,13 @@ h6 {
   }
 
   #intro {
-    padding: 140px 0 60px 0;
+    padding: 90px 0 10px 0;
   }
 
   #intro .intro-img {
     width: 80%;
     float: none;
-    margin: 0 auto 25px auto;
+    margin: 0 auto 0 auto;
   }
 
   #intro .intro-info {
@@ -1067,6 +1067,9 @@ h6 {
 }
 
 @media (max-width: 767px) {
+  #intro {
+    padding: 83px 0 10px 0;
+  }
   #intro .intro-info {
     width: 100%;
     color: white;
@@ -1117,8 +1120,12 @@ font-size: 1rem;
 }
 
 @media (max-width: 574px) {
+
   #intro {
-    padding: 100px 0 20px 0;
+    #intro {
+      padding: 83px 0 0 0;
+    }
+    
   }
   #services .title,
   #compilados .title {
