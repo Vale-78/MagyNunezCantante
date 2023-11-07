@@ -1152,5 +1152,12 @@ font-size: 1rem;
     width:308px;
     height: 173px;
 }
-  
+
+#about .container .section-header p,
+#about .container .section-header a{
+  font-size: medium;
+}
+#footer .footer-top h3 strong{
+  font-size: x-large;
+}
 }
