@@ -738,6 +738,9 @@ h6 {
   align-items: center;
   flex-direction: column;
 }
+#compilados .tamaño{
+  padding: 10px 0 10px 0;
+} 
 
 #services .title,
 #compilados .title{
@@ -1131,11 +1134,23 @@ h6 {
 @media (max-width: 767px) {
   #intro .intro-info {
     width: 100%;
+    color: white;
+    font-weight: 700;
   }
 
   #intro .intro-info h2 {
     font-size: 34px;
     margin-bottom: 30px;
+    color: white;
+    font-weight: 700;
+  }
+  #intro .intro-info h3 {
+    color: white;
+    font-weight: 700;
+  }
+  #intro .intro-info a {
+    color: white;
+    font-weight: 700;
   }
 
   .section-header p {
@@ -1151,10 +1166,11 @@ h6 {
   font-size: 15px;
   text-align: center;
 }
+
 #services iframe ,
 #compilados iframe{
-  width:280px;
-  height: 157px;;
+  width:378px;
+  height: 209px;
 }      
 #devoluciones .videos-container1 h4{
   font-size: 1rem;
@@ -1163,8 +1179,8 @@ h6 {
 font-size: 1rem;
 }
 #devoluciones .videos-container2 iframe{
-  width:336px;
-  height: 188px;;
+  width:407px;
+  height: 228px;;
 }     
 }
 
@@ -1184,8 +1200,8 @@ font-size: 1rem;
   }
   #compilados iframe,
   #services iframe {
-    width:186px;
-    height: 105px;
+    width: 223px;
+    height: 126px;
   }   
   #devoluciones .videos-container1{
     max-width: 82%;
@@ -1201,8 +1217,8 @@ font-size: 1rem;
     font-size: 0.5rem;
 }
   #devoluciones .videos-container2 iframe{
-    width:280px;
-    height: 157px;
+    width:308px;
+    height: 173px;
 }
   
 }
