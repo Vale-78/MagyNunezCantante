@@ -1144,15 +1144,12 @@ h6 {
     color: white;
     font-weight: 700;
   }
-  #intro .intro-info h3 {
+  #intro .intro-info h3, 
+   #intro .intro-info a,
+   #intro .intro-info h2 span {
     color: white;
     font-weight: 700;
   }
-  #intro .intro-info a {
-    color: white;
-    font-weight: 700;
-  }
-
   .section-header p {
     width: 100%;
   }
