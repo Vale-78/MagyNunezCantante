@@ -1039,7 +1039,7 @@ h6 {
   }
 
   #intro .intro-img {
-    width: 80%;
+    width: 74%;
     float: none;
     margin: 0 auto 0 auto;
   }
@@ -1086,7 +1086,9 @@ h6 {
    #intro .intro-info h2 span {
     color: white;
     font-weight: 700;
+    line-height: 0.8;
   }
+  
   .section-header p {
     width: 100%;
   }
@@ -1119,12 +1121,9 @@ font-size: 1rem;
 }
 
 @media (max-width: 574px) {
-
-  #intro {
     #intro {
       padding: 83px 0 0 0;
-    }
-    
+      line-height: 0.6;
   }
   #services .title,
   #compilados .title {
