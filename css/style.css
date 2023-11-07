@@ -52,72 +52,6 @@ h6 {
   
 }
 
-#familia-container .member {
-  text-align: center;
-  margin-bottom: 20px;
-  position: relative;
-  overflow: hidden;
-}
-
-#familia-container .member img {
-  opacity: 0.9;
-  transition: 0.3s;
-  align-items: center;
-  
-}
-#familia-container .member h1 {
-  font-size: 20px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 600;
-  letter-spacing: 2px;
-  text-align: center;
-}
-
-#familia-container .member .member-info {
-  opacity: 0;
-  display: -ms-flexbox;
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  transition: 0.2s;
-  width: 100%;
-  flex-direction: row-reverse;
-  
-}
-
-#familia-container .member .member-info-content {
-
-  margin-top: 50px;
-  transition: margin 0.2s;
-}
-
-#familia-container .member:hover .member-info {
-  background: rgba(0, 62, 128, 0.7);
-  opacity: 1;
-  transition: 0.4s;
-  margin-left: auto;
-  padding-bottom: 10%;
-}
-
-#familia-container .member:hover .member-info-content {
-  margin-top: 0;
-  transition: margin 0.4s;
-}
-
-#familia-container .member h4 {
-  font-weight: 700;
-  margin-bottom: 2px;
-  font-size: 18px;
-  color: #fff;
-}
-
 /* Back to top button */
 
 .back-to-top {
@@ -738,8 +672,9 @@ h6 {
   align-items: center;
   flex-direction: column;
 }
-#compilados .tamaño{
-  padding: 10px 0 10px 0;
+#compilados .tamaño,
+#devoluciones .tamaño{
+  padding: 5px 0 5px 0;
 } 
 
 #services .title,
